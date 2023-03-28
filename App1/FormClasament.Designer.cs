@@ -48,11 +48,12 @@
             this.Stergere});
             this.dataGridViewClasament.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewClasament.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewClasament.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.dataGridViewClasament.Name = "dataGridViewClasament";
             this.dataGridViewClasament.ReadOnly = true;
             this.dataGridViewClasament.RowHeadersWidth = 123;
             this.dataGridViewClasament.RowTemplate.Height = 46;
-            this.dataGridViewClasament.Size = new System.Drawing.Size(1331, 975);
+            this.dataGridViewClasament.Size = new System.Drawing.Size(630, 527);
             this.dataGridViewClasament.TabIndex = 0;
             this.dataGridViewClasament.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewClasament_CellContentClick);
             // 
@@ -90,12 +91,13 @@
             // 
             // FormClasament
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1331, 975);
+            this.ClientSize = new System.Drawing.Size(630, 527);
             this.Controls.Add(this.dataGridViewClasament);
+            this.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.Name = "FormClasament";
-            this.Text = "FormClasament";
+            this.Text = "Clasament";
             this.Load += new System.EventHandler(this.FormClasament_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClasament)).EndInit();
             this.ResumeLayout(false);

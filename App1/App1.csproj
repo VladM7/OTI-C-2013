@@ -64,6 +64,12 @@
     <Compile Include="FormClasament.Designer.cs">
       <DependentUpon>FormClasament.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGame.Designer.cs">
+      <DependentUpon>FormGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSelectareImg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormClasament.resx">
       <DependentUpon>FormClasament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGame.resx">
+      <DependentUpon>FormGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSelectareImg.resx">
       <DependentUpon>FormSelectareImg.cs</DependentUpon>
@@ -138,121 +147,121 @@
     <Content Include="Img\image1\image1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-0-0.jpeg">
+    <Content Include="Img\image2\image2-0-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-0-1.jpeg">
+    <Content Include="Img\image2\image2-0-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-0-2.jpeg">
+    <Content Include="Img\image2\image2-0-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-1-0.jpeg">
+    <Content Include="Img\image2\image2-1-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-1-1.jpeg">
+    <Content Include="Img\image2\image2-1-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-1-2.jpeg">
+    <Content Include="Img\image2\image2-1-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-2-0.jpeg">
+    <Content Include="Img\image2\image2-2-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-2-1.jpeg">
+    <Content Include="Img\image2\image2-2-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image2\image2 [www.imagesplitter.net]-2-2.jpeg">
+    <Content Include="Img\image2\image2-2-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Img\image2\image2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-0-0.jpeg">
+    <Content Include="Img\image3\image3-0-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-0-1.jpeg">
+    <Content Include="Img\image3\image3-0-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-0-2.jpeg">
+    <Content Include="Img\image3\image3-0-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-1-0.jpeg">
+    <Content Include="Img\image3\image3-1-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-1-1.jpeg">
+    <Content Include="Img\image3\image3-1-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-1-2.jpeg">
+    <Content Include="Img\image3\image3-1-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-2-0.jpeg">
+    <Content Include="Img\image3\image3-2-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-2-1.jpeg">
+    <Content Include="Img\image3\image3-2-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image3\image3 [www.imagesplitter.net]-2-2.jpeg">
+    <Content Include="Img\image3\image3-2-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Img\image3\image3.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image4\image4 [www.imagesplitter.net]-0-0.jpeg">
+    <Content Include="Img\image4\image4-0-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image4\image4 [www.imagesplitter.net]-0-1.jpeg">
+    <Content Include="Img\image4\image4-0-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image4\image4 [www.imagesplitter.net]-1-0.jpeg">
+    <Content Include="Img\image4\image4-1-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image4\image4 [www.imagesplitter.net]-1-1.jpeg">
+    <Content Include="Img\image4\image4-1-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Img\image4\image4.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-0-0.jpeg">
+    <Content Include="Img\image5\image5-0-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-0-1.jpeg">
+    <Content Include="Img\image5\image5-0-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-0-2.jpeg">
+    <Content Include="Img\image5\image5-0-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-1-0.jpeg">
+    <Content Include="Img\image5\image5-1-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-1-1.jpeg">
+    <Content Include="Img\image5\image5-1-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-1-2.jpeg">
+    <Content Include="Img\image5\image5-1-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-2-0.jpeg">
+    <Content Include="Img\image5\image5-2-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-2-1.jpeg">
+    <Content Include="Img\image5\image5-2-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image5\image5 [www.imagesplitter.net]-2-2.jpeg">
+    <Content Include="Img\image5\image5-2-2.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Img\image5\image5.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image6\image6 [www.imagesplitter.net]-0-0.jpeg">
+    <Content Include="Img\image6\image6-0-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image6\image6 [www.imagesplitter.net]-0-1.jpeg">
+    <Content Include="Img\image6\image6-0-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image6\image6 [www.imagesplitter.net]-1-0.jpeg">
+    <Content Include="Img\image6\image6-1-0.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img\image6\image6 [www.imagesplitter.net]-1-1.jpeg">
+    <Content Include="Img\image6\image6-1-1.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Img\image6\image6.jpg">

@@ -43,7 +43,11 @@ namespace App1
                 {
                     var selectareImg = new FormSelectareImg();
                     selectareImg.ShowDialog();
-                    //to do: open game window
+                    if (selectareImg.ImagineSelectata != null) {
+                        // open game window
+                        var game = new FormGame(textBoxUsername.Text, selectareImg.nrPatratele, selectareImg.ImagineSelectata);
+                        game.Show();
+                    }
                 }
             }
         }

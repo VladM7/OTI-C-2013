@@ -33,8 +33,8 @@ namespace App1
             else
             {
                 MessageBox.Show("Detalii gresite!");
-                textBoxParola.Text = "";
             }
+            textBoxParola.Text = "";
         }
 
         private void Form1_Load(object sender, EventArgs e)
