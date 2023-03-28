@@ -15,6 +15,7 @@ namespace App1
         public int nrPatratele = 4;
         public string[] imagini4 = new string[] { "image4", "image6" };
         public string[] imagini9 = new string[] { "image1", "image2", "image3", "image5" };
+        public string ImagineSelectata => (string)comboBox1.SelectedItem;
 
         public FormSelectareImg()
         {
@@ -39,6 +40,15 @@ namespace App1
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             pictureBox1.ImageLocation = string.Format("Img/{0}/{0}.jpg", comboBox1.SelectedItem);
+        }
+
+        private void buttonStart_Click(object sender, EventArgs e) {
+            if (comboBox1.SelectedItem == null) {
+                MessageBox.Show("Te rog alege o imagine!");
+            }
+            else {
+                this.Close();
+            }
         }
     }
 }
